@@ -1,0 +1,29 @@
+.header img{
+    width: 230px;
+    height: auto;
+}
+.img{
+    background: rgb(129, 124, 124);
+}
+.header{
+    text-align: center;
+}
+.header nav{
+ font-family:  'Lato', sans-serif;
+ background: black;
+ font-size: 20px;
+line-height: 40px;
+/* text-align: left; */
+/* text-transform: uppercase; */
+ 
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    padding: 7px;
+    outline: 0;
+}
+nav a:hover{
+    background: gray;
+}

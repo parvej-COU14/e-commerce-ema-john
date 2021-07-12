@@ -1,0 +1,30 @@
+.product {
+   
+ margin-bottom: 10px;
+margin-right: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid lightgray; 
+}
+
+.product-name h5{
+    color:rgb(69, 69, 163);
+    margin-left: 40px;
+}
+.product-name p{
+ text-align: start;
+ margin-left: 70px;
+}
+.product-name .price{
+    color:blue;
+}
+.product-name button{
+    
+    margin-right: 250px;
+    padding: 5px 45px;
+   
+    background:goldenrod;
+    border-radius: 4px;
+    margin-bottom: 30px;
+ 
+}
+

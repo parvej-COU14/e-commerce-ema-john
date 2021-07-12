@@ -1,0 +1,22 @@
+.reviewItem{
+    margin: 10px;
+    
+}
+
+.title{
+    font-size: 18px;
+    color: blue;
+    padding: 10px;
+   
+}
+.reviewItem button{
+    padding: 7px 40px;
+    border: none;
+    background:goldenrod;
+    margin-top: 20px;
+    color:black
+}
+.reviewItem p{
+    margin-left: 5px;
+    color:blue;
+}

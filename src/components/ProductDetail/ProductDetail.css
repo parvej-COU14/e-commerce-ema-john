@@ -1,0 +1,8 @@
+.product-container{
+    width: 65%;
+    margin-left: 25px;
+    margin-right: 5px;
+  
+    padding: 10px;
+  border-right: 2px solid lightgray;
+}

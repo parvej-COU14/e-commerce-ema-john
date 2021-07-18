@@ -5,14 +5,17 @@ import ReviewItem from '../ReviewItem/ReviewItem';
 import { getDatabaseCart, processOrder, removeFromDatabaseCart } from '../utilities/databaseManager';
 import './Review.css'
 import DoneImage from '../images/oder.png'
+import { useHistory } from 'react-router-dom';
 
 const Review = () => {
     const [cart,setCart]=useState([]);
     const [orderPlaced,setOrderPlaced]=useState(false)
-    const palceOederHandle=()=>{
-     setCart([]);
-     setOrderPlaced(true)
-     processOrder()
+    const history=useHistory();
+    const proccedCheckoutHandle=()=>{
+      history.push('/shipment')
+    //  setCart([]);
+    //  setOrderPlaced(true)
+    //  processOrder()
     }
     const removeProduct=(productKey)=>{
     const newCart=cart.filter(pd=>pd.key!==productKey);
@@ -55,7 +58,7 @@ const Review = () => {
         </div>
         <div className="cart-container">
         <Cart cart={cart}>
-          <button onClick={palceOederHandle}className="buttonStyle">Place Order</button>
+          <button onClick={proccedCheckoutHandle}className="buttonStyle">Procced Checkout</button>
         </Cart>
         </div>
         </div>
